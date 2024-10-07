@@ -1,37 +1,3 @@
-Skip to content
-Navigation Menu
-Vladshambaryan
-/
-API_Test_Project_Lite
-
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-BreadcrumbsAPI_Test_Project_Lite/.github/workflows
-/run_tests.yml
-Go to file
-t
-Latest commit
-Vladshambaryan
-Vladshambaryan
-!
-5edf41b
- · 
-1 hour ago
-History
-File metadata and controls
-
-Code
-
-Blame
-87 lines (74 loc) · 2.48 KB
 name: Python autotests
 
 on:
@@ -119,4 +85,3 @@ jobs:
         uses: actions/deploy-pages@v1.2.9
         
   
-API_Test_Project_Lite/.github/workflows/run_tests.yml at main · Vladshambaryan/API_Test_Project_Lite
