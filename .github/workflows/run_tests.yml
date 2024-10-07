@@ -83,6 +83,7 @@ jobs:
         if: always()
 
       - name: Save allure report
+        if: always() && [ -d allure-report ]
         uses: actions/upload-artifact@v3
         with:
           name: allure-report
@@ -100,6 +101,7 @@ jobs:
           name: allure-report
           
       - name: Upload Pages artifact
+        if: always() && [ -d allure-report ]
         uses: actions/upload-pages-artifact@v2
         with:
           path: allure-report
