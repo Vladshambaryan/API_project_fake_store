@@ -1,8 +1,6 @@
 import allure
 import pytest
 
-from conftest import (new_post_id, post_endpoint, put_endpoint, patch_endpoint, get_one_endpoint,
-                      get_all_endpoints, delete_endpoint)
 
 @allure.feature('get')
 @pytest.mark.regression

@@ -1,7 +1,3 @@
-import sys
-import os
-
-sys.path.append(os.path.abspath('C:/Users/PC/PycharmProjects/API_project_fake_store'))
 
 import requests
 import pytest
